@@ -1,0 +1,7 @@
+- Convert Schema File (otomobil.xsd) to Java Class
+xjc otomobil.xsd
+
+- Create Schema File from Java Class
+schemagen -d where_to_place_xsd_file
+          -cp target\classes
+          com.example.world.domain.World 
