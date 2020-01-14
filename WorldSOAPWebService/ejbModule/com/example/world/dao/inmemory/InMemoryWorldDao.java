@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 import javax.ejb.Singleton;
+import javax.jws.HandlerChain;
 import javax.jws.WebService;
 
 import com.example.world.dao.WorldDao;
@@ -15,6 +16,7 @@ import com.example.world.entity.Country;
 
 @Singleton
 @WebService(endpointInterface = "com.example.world.dao.WorldDao")
+@HandlerChain(file="handlers.xml")
 public class InMemoryWorldDao implements WorldDao {
 	private Map<String, Country> countries;
 	private Map<Integer, City> cities;
