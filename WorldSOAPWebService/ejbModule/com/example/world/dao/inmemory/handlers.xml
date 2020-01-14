@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE xml>
-<javaee:handler-chains
-	xmlns:javaee="http://java.sun.com/xml/ns/javaee ejb-jar_3_2.xsd"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<javaee:handler-chain>
-		<javaee:handler>
-		   <javaee:handler-name>AuditHandler</javaee:handler-name>
-		   <javaee:handler-class>com.example.world.aop.AuditHandler</javaee:handler-class>
-		</javaee:handler>
-	</javaee:handler-chain>
-</javaee:handler-chains>
+<handler-chains xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+  http://java.sun.com/xml/ns/javaee/javaee_web_services_metadata_handler_2_0.xsd">
+	<handler-chain>
+		<handler>
+		   <handler-name>AuditHandler</handler-name>
+		   <handler-class>com.example.world.aop.AuditHandler</handler-class>
+		</handler>
+	</handler-chain>
+</handler-chains>
