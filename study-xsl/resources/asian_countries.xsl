@@ -4,12 +4,10 @@
 	<xsl:output media-type="application/xml" />
 	<xsl:template match="/countries">
 		<countries>
-			<xsl:for-each select="country">
+			<xsl:for-each select="country[continent='Asia']">
 				<xsl:sort select="population" 
 				     data-type="number" order="descending" />
-				<xsl:if test="continent = 'Asia'">
 					<xsl:copy-of select="." />
-				</xsl:if>
 			</xsl:for-each>
 		</countries>
 	</xsl:template>

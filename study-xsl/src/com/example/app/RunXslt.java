@@ -24,8 +24,12 @@ public class RunXslt {
 	static Document document;
 
 	public static void main(String[] argv) {
-		String xsltFile = "resources/asian_countries.xsl";
-		String xmlFile = "resources/countries.xml";
+//		String xsltFile = "resources/asian_countries.xsl";
+//		String xmlFile = "resources/countries.xml";
+//		String xsltFile = "resources/movies_70s_drama.xsl";
+//		String xmlFile = "resources/movies.xml";
+		String xsltFile = "resources/listMovies.xsl";
+		String xmlFile = "resources/movies.xml";
 
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		// factory.setNamespaceAware(true);
