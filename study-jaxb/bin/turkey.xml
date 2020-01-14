@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<country>
+	<code>TUR</code>
+	<name>Turkey</name>
+	<continent>Asia</continent>
+	<population>80000000</population>
+	<surfaceArea>10000.0</surfaceArea>
+	<capital>1</capital>
+	<cities>
+		<city>
+			<id>1</id>
+			<name>Ankara</name>
+			<population>5000000</population>
+			<country>TUR</country>
+		</city>
+		<city>
+			<id>2</id>
+			<name>İstanbul</name>
+			<population>20000000</population>
+			<country>TUR</country>
+		</city>
+	</cities>
+</country>
