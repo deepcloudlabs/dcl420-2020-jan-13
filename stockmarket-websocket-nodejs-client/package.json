@@ -1,0 +1,14 @@
+{
+  "name": "stockmarket-websocket-nodejs-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.2.1"
+  }
+}
