@@ -1,10 +1,11 @@
 class Employee {
     constructor() {
     	this.id= 1;
-        this.identityNo = ko.observable("").extend({
-            tcKimlikNo: true,
-            required: true
-        });
+        this.identityNo = ko.observable("");
+//        .extend({
+//            tcKimlikNo: true,
+//            required: true
+//        });
         this.fullname = ko.observable("").extend({
             minLength: 5,
             required: true

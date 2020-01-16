@@ -77,4 +77,28 @@ public class EmployeeRepository {
 		em.remove(managedEmp);
 		return managedEmp;
 	}
+
+	@Transactional
+	public Employee removeEmployeeById(long id) {
+		Employee managedEmp = 
+				em.find(Employee.class, id);
+		if (Objects.isNull(managedEmp))
+			throw new EmployeeNotFoundException("Employee is not found", ErrorCode.EMPLOYEE_NOT_FOUND,
+					"58326625-7739-4c4f-8ff8-8fefab44307c");
+		em.remove(managedEmp);
+		return managedEmp;
+	}
+
+	@Transactional
+	public Employee removeEmployeeByIdentity(String identity) {
+		Employee emp = em.createNamedQuery(
+				"Employee.findByIdentity", Employee.class)
+				.setParameter("identity", identity)
+				.getSingleResult();
+		if (Objects.isNull(emp))
+			throw new EmployeeNotFoundException("Employee is not found", ErrorCode.EMPLOYEE_NOT_FOUND,
+					"3d684d75-0b46-4fe4-9811-9389b0c2a7fc");
+		em.remove(emp);
+		return emp;
+	}
 }

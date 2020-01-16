@@ -11,6 +11,12 @@ import javax.persistence.Lob;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import com.example.hr.validation.Iban;
+import com.example.hr.validation.TcKimlikNo;
 
 @Entity
 @Table(name = "employees")
@@ -23,19 +29,25 @@ import javax.persistence.Table;
 			name="Employee.findAll",
 			query = "select e from Employee e" )
 })
+@XmlRootElement
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	@Min(1)
+	private Long id;	
 	@Column(name = "identity", unique = true, nullable = false)
+	@TcKimlikNo
 	private String identityNo;
 	@Column(name = "full_name")
 	private String fullname;
 	@Column(name = "iban")
+	@Iban
 	private String iban;
 	@Column(name = "salary")
+	@Min(2400)
 	private double salary;
 	@Column(name = "birth_year")
+	@Max(2000)
 	private int birthYear;
 	@Lob
 	@Column(name = "photo", columnDefinition = "longblob")
