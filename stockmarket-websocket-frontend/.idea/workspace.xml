@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69c42c2f-2e02-462c-827c-9a46cd537340" name="Default" comment="initial commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isM</find>
+      <find>data-bind</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\stage\var\workspace\dcl\dcl-420.developing.soap.and.restful.web.services.on.java.ee.8\2020\jan-13\stockmarket-websocket-frontend\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1WTXMX3V9DGrG4kA8yIfZS3A9Mo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\stage\var\workspace\omega316-2017-sep-18\cryptocurrency\cryptocurrency-dashbord-frontend\js\lib" />
+      <recent name="C:\stage\var\workspace\omega316-2017-sep-18\cryptocurrency\cryptocurrency-dashbord-frontend\resources" />
+      <recent name="C:\stage\var\workspace\omega316-2017-sep-18\cryptocurrency\cryptocurrency-dashbord-frontend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69c42c2f-2e02-462c-827c-9a46cd537340" name="Default" comment="" />
+      <created>1506080452274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506080452274</updated>
+      <workItem from="1506080453625" duration="8512000" />
+      <workItem from="1508479018408" duration="837000" />
+      <workItem from="1549619995640" duration="407000" />
+      <workItem from="1551438394006" duration="4261000" />
+      <workItem from="1551782880755" duration="1307000" />
+      <workItem from="1555674007153" duration="1453000" />
+      <workItem from="1579174511817" duration="1187000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579175018544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579175018544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1579175055412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579175055412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="191" y="144" width="1701" height="796" key="CommitChangelistDialog2" timestamp="1579175939809">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="191" y="144" width="1701" height="796" key="CommitChangelistDialog2/0.0.1920.1050/-1280.54.1024.819@-1280.54.1024.819" timestamp="1579175939809" />
+    <state x="-1175" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579175063107">
+      <screen x="-1280" y="54" width="1024" height="819" />
+    </state>
+    <state x="-1175" y="201" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1280.54.1024.819@-1280.54.1024.819" timestamp="1579175063107" />
+  </component>
+</project>
