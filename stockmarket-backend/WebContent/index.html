@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SSE Client Application</title>
+<script type="text/javascript">
+	window.onload = () => {
+		let eventSource = new EventSource("http://localhost:8080/stockmarket-backend/api/v1/orders/subscribe?user=jack");
+		eventSource.addEventListener("open" , () => {
+			console.log("Connected to the server...");
+		},false);
+		eventSource.addEventListener("error" , () => {
+			console.log(JSON.stringify(err));
+		},false);
+		eventSource.onmessage = (order)=>{
+			console.log(order);
+		}
+		
+		eventSource.addEventListener('marketdata',
+				(order)=>{
+					console.log(order);
+				},false);
+	}
+</script>
+</head>
+<body>
+	<h1>Stock Market</h1>
+</body>
+</html>

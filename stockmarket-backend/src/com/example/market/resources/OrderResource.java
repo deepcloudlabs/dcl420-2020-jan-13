@@ -5,6 +5,7 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 
 import javax.inject.Singleton;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -43,7 +44,11 @@ public class OrderResource {
 	}
 	
 	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
 	public Order connect(Order order,@Context Sse sse) {
+		System.out.println(order);
+		System.out.println(eventSinks);
 		eventSinks.forEach((user,ses) -> {
 			OutboundSseEvent event =
 					sse.newEventBuilder()
