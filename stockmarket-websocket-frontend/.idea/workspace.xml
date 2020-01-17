@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69c42c2f-2e02-462c-827c-9a46cd537340" name="Default" comment="initial commit" />
+    <list default="true" id="69c42c2f-2e02-462c-827c-9a46cd537340" name="Default" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/../hr-frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockmarket-backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +104,7 @@
       <workItem from="1551438394006" duration="4261000" />
       <workItem from="1551782880755" duration="1307000" />
       <workItem from="1555674007153" duration="1453000" />
-      <workItem from="1579174511817" duration="1187000" />
+      <workItem from="1579174511817" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1579175018544</created>
@@ -129,10 +133,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="191" y="144" width="1701" height="796" key="CommitChangelistDialog2" timestamp="1579175939809">
+    <state x="191" y="144" width="1701" height="796" key="CommitChangelistDialog2" timestamp="1579176060427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="191" y="144" width="1701" height="796" key="CommitChangelistDialog2/0.0.1920.1050/-1280.54.1024.819@-1280.54.1024.819" timestamp="1579175939809" />
+    <state x="191" y="144" key="CommitChangelistDialog2/0.0.1920.1050/-1280.54.1024.819@0.0.1920.1050" timestamp="1579176060427" />
     <state x="-1175" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579175063107">
       <screen x="-1280" y="54" width="1024" height="819" />
     </state>
