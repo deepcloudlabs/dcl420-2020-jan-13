@@ -1,7 +1,5 @@
 package com.example.lottery.security;
 
-import java.util.Objects;
-
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
