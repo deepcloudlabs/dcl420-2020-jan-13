@@ -1,6 +1,5 @@
 package com.example.imdb.client.app;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -10,6 +9,7 @@ import java.util.stream.IntStream;
 
 public class ImdbApp {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) throws Exception {
 		HttpClient client = HttpClient.newHttpClient();
 		long start = System.currentTimeMillis();
